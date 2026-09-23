@@ -2,7 +2,7 @@
 
 # Crear una lista de animales
 
-animales = ["Perro", "Gato", "Hurón", "Hamster", "Conejo"]
+animales = ["Perro", "Gato", "Huron", "Hamster", "Conejo"]
 
 # Mostrar la lista 
 print("Lista: ", animales)

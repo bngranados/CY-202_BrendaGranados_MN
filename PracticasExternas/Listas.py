@@ -9,30 +9,3 @@ lista = [29, True, 3.1415, "El numero de avogdro si que mola"]
 lista[3] = "Hola mundo!"
 print(lista)
 
-# Ejemplo as per semana 2
-
-frutas = ["Manzana", "Pera", "Uva"]
-print(frutas[0])
-print(frutas[1])
-print(frutas[2])
-# Cada posicion almacena un valor, el indice inicia en 0
-
-# Modificar,agregar, eleminar elementos de la lista
-
-# Agregar
-
-frutas.append("Naranja") # Agrega un elemento al final de la lista
-print(frutas)
-
-frutas.remove("Pera") # Elimina un elemento de la lista
-print(frutas)
-
-frutas[0] = "Sandia" # Modifica un elemento de la lista
-print(frutas)
-
-# Recorrer la lista con un ciclo for
-
-nombre = ["Ana", "Luis", "Carlos"]
-
-for nombre in nombre:
-    print(nombre)
