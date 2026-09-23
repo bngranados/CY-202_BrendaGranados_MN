@@ -5,7 +5,7 @@ notas = []
 
 # Solicitar 4 notas y guardarlas en la lista
 
-for i in range(3):
+for i in range(4):
     nota = float(input("Ingrese la nota: "))
     notas.append(nota)
 
