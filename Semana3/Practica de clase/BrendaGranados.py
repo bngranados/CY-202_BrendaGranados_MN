@@ -21,10 +21,6 @@ for i in range(num_estudiantes):
     nombre = input("Nombre del estudiante: ")
     estudiantes.append(nombre)
 
-print("Estudiantes registrados:")
-for estudiante in estudiantes:
-    print("- ", estudiante)
-    
 # Parte 3 – Registro de Notas
 # El sistema deberá registrar UNA nota por cada estudiante, las notas deben almacenarse en otra lista independiente.
 
@@ -56,17 +52,18 @@ def validar_estudiante(lista_estudiantes):
         print("Estudiante encontrado")
     else:
         print("Estudiante no encontrado")
-
+mostrar_estudiantes(estudiantes)
 
 # Parte 5 – Estadísticas Generales
 # El programa deberá mostrar: promedio general, nota más alta, nota más baja, cantidad total de estudiantes.
 # Restricción: Las estadísticas deben calcularse utilizando funciones integradas de Python vistas en clase
 
 print("Estadísticas Generales:")
-print("Promedio general:", calcular_promedio(notas))
+print("Promedio general:", round(calcular_promedio(notas), 1))
 print("Nota más alta:", max(notas))
 print("Nota más baja:", min(notas))
 print("Cantidad total de estudiantes:", len(estudiantes))
+validar_estudiante(estudiantes)
 
 # Parte 6 – Ordenamiento
 # El sistema deberá ordenar las notas de menor a mayor y mostrarlas.
