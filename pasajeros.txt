@@ -1,2 +1,0 @@
-Juan,12344,Miami
-Maria,989,CA
